@@ -1,0 +1,26 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    background-color: #F08080;
+    color: white;
+    text-align: center;
+    width: 24%;
+    border-radius: 5px;
+    margin: 0 5px
+}
+/* /////////// 1024px //////// */
+@media screen and (max-width: 1024px) {
+    .col{
+        margin: 1px;
+        width: 49%;
+    }
+}
+/* /////////// 768px //////// */
+@media screen and (max-width: 768px) {
+    .col{
+        width: 100%;
+    }
+}

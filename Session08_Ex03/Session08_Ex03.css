@@ -1,0 +1,23 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #222222;
+    color: white;
+    gap: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.inf {
+    width: calc(50% - 20px);
+}
+
+@media screen and (max-width: 768px) {
+    .inf {
+        width: calc(100% - 20px);
+    }
+}
